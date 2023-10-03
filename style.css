@@ -1,0 +1,188 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background: linear-gradient(#000, rgb(206, 48, 24));
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: space-around; */
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    
+}
+main {
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: space-around; */
+    /* margin: auto; */
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+input {
+    margin: 4px;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    background: lightgray;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+label {
+    font-size: 0.7rem;
+}
+.forgot {
+    font-size: 0.7rem;
+}
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login a {
+    padding-right: 10px;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    color: white;
+    background: rgb(37, 37, 37);
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+.fbGoog {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button {
+    margin: 4px;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+}
+button a {
+    color: #000;
+    font-weight: bolder;
+}
+button:nth-of-type(2) {
+    background: rgb(82, 82, 251);
+}
+button:nth-of-type(2) a {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.eller {
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    background: gray;
+    align-items: flex-;
+    height: 60px;
+    width: 100%;
+    font-size: 0.7rem;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .wrapper {
+            background: lightgray;
+        }
+    
+    main {
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    h1 {
+    color: black;
+    font-size: 1.5rem;
+    }
+
+    input {
+        background: white;
+    }
+
+    label {
+        color: black;
+        font-weight: 600;
+    }
+
+    .forgot {
+        color: black;
+        font-weight: 600;
+    }
+
+    input[type="submit"] {
+        background: orangered;
+    }
+
+    .eller {
+        color: black;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        background: lightgray;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+     
+}
+
+/* @media (orientation: landscape) {
+    * {
+        background: darkslateblue !important;
+    }
+} */
